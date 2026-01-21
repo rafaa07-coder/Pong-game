@@ -118,8 +118,8 @@ int main()
     ball.radius = 20;
     ball.x = screen_width/2;
     ball.y = screen_height/2;
-    ball.speed_x = 7;
-    ball.speed_y = 7;
+    ball.speed_x = 8;
+    ball.speed_y = 8;
 
     player.width = 25;
     player.height = 120;    
@@ -132,7 +132,7 @@ int main()
     cpu.height = 120; 
     cpu.x = 10;
     cpu.y = screen_height/2 - cpu.height/2; 
-    cpu.speed = 6;
+    cpu.speed = 6.5;
 
     while(WindowShouldClose() == false)
     {
